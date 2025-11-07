@@ -104,7 +104,10 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
 
-[codesandbox](https://codesandbox.io/s/simple-usage-uyf5n?file=/src/App.js)
+<a href="https://codesandbox.io/s/simple-usage-uyf5n?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
+
 
 <details><summary>Extended example</summary>
 
@@ -149,9 +152,9 @@ function App() {
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
-
-[codesandbox](https://codesandbox.io/s/simple-usage-extended-3ivw2?file=/src/App.js)
-
+<a href="https://codesandbox.io/s/simple-usage-extended-3ivw2?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
 </details>
 
 #### Get value
@@ -194,7 +197,10 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
 
-[codesandbox](https://codesandbox.io/s/get-value-r9be5?file=/src/App.js)
+<a href="https://codesandbox.io/s/get-value-r9be5?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
+
 
 2. get the current model value via `onChange` prop
 
@@ -222,8 +228,10 @@ function App() {
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
+<a href="https://codesandbox.io/s/onchange-4nf6g?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
 
-[codesandbox](https://codesandbox.io/s/onchange-4nf6g?file=/src/App.js)
 
 <details><summary>(get the `DiffEditor` values via `editor` instance)</summary>
 
@@ -267,7 +275,10 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
 
-[codesandbox](https://codesandbox.io/s/get-values-diffeditor-c6xrg?file=/src/App.js)
+<a href="https://codesandbox.io/s/get-values-diffeditor-c6xrg?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
+
 
 </details>
 
@@ -303,8 +314,11 @@ function App() {
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
+<a href="https://codesandbox.io/s/editor-instance-354cr?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
 
-[codesandbox](https://codesandbox.io/s/editor-instance-354cr?file=/src/App.js)
+
 
 #### `monaco instance`
 
@@ -348,7 +362,11 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
 
-[codesandbox](https://codesandbox.io/s/simple-usage-forked-il8kt?file=/src/App.js)
+<a href="https://codesandbox.io/s/simple-usage-forked-il8kt?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
+
+
 
 2. via `loader` utility
 
@@ -358,7 +376,11 @@ import { loader } from '@monaco-editor/react';
 loader.init().then((monaco) => console.log('here is the monaco instance:', monaco));
 ```
 
-[codesandbox](https://codesandbox.io/s/monaco-instance-loader-ndzu9?file=/src/App.js)
+<a href="https://codesandbox.io/s/monaco-instance-loader-ndzu9?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
+
+
 
 3. via `useMonaco` hook
 
@@ -384,7 +406,11 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
 
-[codesandbox](https://codesandbox.io/s/monaco-instance-usemonaco-88eml?file=/src/App.js)
+<a href="https://codesandbox.io/s/monaco-instance-usemonaco-88eml?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
+
+
 
 #### `useMonaco`
 
@@ -415,7 +441,9 @@ const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
 
-[codesandbox](https://codesandbox.io/s/usemonaco-9rpc4)
+<a href="https://codesandbox.io/s/usemonaco-9rpc4" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
 
 #### `loader-config`
 
@@ -493,7 +521,11 @@ loader.config({ monaco });
 loader.init().then(/* ... */);
 ```
 
-[codesandbox](https://codesandbox.io/s/loader-ry1bb?file=/src/App.js)
+[codesandbox](
+<a href="https://codesandbox.io/s/loader-ry1bb?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
+
 
 **NOTE**: your passed object will be deeply merged with the [default one](https://github.com/suren-atoyan/monaco-loader/blob/master/src/config/index.js)
 
@@ -582,7 +614,9 @@ will give you more flexibility in working with a multi-model editor.
 <br />
 `saveViewState` is an indicator whether to save the models' view states between model changes or not
 
-[codesandbox](https://codesandbox.io/s/multi-model-editor-kugi6?file=/src/App.js)
+<a href="https://codesandbox.io/s/multi-model-editor-kugi6?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
 
 #### `onValidate`
 
@@ -613,8 +647,9 @@ function App() {
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);
 ```
-
-[codesandbox](https://codesandbox.io/s/onvalidate-4t5c2?file=/src/App.js)
+<a href="https://codesandbox.io/s/onvalidate-4t5c2?file=/src/App.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
 
 It's important to mention that according to [monaco-editor](https://microsoft.github.io/monaco-editor/), the whole supported languages are divided into two groups:
 
@@ -722,7 +757,11 @@ loader.init().then((monaco) => {
 
 That's all. You can wrap it into a `React` component, or `Vue`, or `Angular` or leave it as vanilla one or whatever you want; it's written in pure `js`
 
-[codesandbox](https://codesandbox.io/s/create-your-own-editor-pd01u?file=/src/index.js)
+<a href="https://codesandbox.io/s/create-your-own-editor-pd01u?file=/src/index.js" target="_blank" rel="noopener noreferrer">
+  🔗 Open in CodeSandbox
+</a>
+
+
 
 ### Development-Playground
 
